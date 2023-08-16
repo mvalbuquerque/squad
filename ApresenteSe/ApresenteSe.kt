@@ -1,8 +1,8 @@
 fun main () {
 
 println("Vinny")
-println("Marcos")
 
+println("Joao")
 
-
+println("pedro")
 }
