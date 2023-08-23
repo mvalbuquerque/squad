@@ -1,9 +1,9 @@
 fun main(){
-    val primeiroTrimestre: Double = 9.8
-    val segundoTrimestre: Double = 9.5
-    val terceiroTrimestre: Double = 9.7
+    val primeiroTrimestre = 9.8
+    val segundoTrimestre = 9.5
+    val terceiroTrimestre = 9.7
 
-    val mediaFinal: Double = (primeiroTrimestre + segundoTrimestre + terceiroTrimestre) / 3
+    val mediaFinal = String.format("%.2f", (primeiroTrimestre + segundoTrimestre + terceiroTrimestre) / 3)
 
     println(mediaFinal)
 } 
