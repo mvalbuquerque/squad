@@ -9,22 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1755d2a-4e04-4d24-a8b6-8aef82136750" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/br/com/appinstitucional/AboutActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/br/com/appinstitucional/ContactUsActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/br/com/appinstitucional/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/br/com/appinstitucional/SchoolsActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/br/com/appinstitucional/SettingsActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_contact_us.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_schools.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_settings2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApresenteSe/ApresenteSe.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MediaEscolar.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temperatura.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usuario.kt" beforeDir="false" />
-    </list>
+    <list default="true" id="a1755d2a-4e04-4d24-a8b6-8aef82136750" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
