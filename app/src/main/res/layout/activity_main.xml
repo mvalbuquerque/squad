@@ -10,7 +10,7 @@
         android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="51dp"
+        android:layout_marginBottom="38dp"
         android:background="#0797AA"
         android:paddingLeft="10sp"
         android:paddingTop="20dp"
@@ -18,85 +18,83 @@
         android:textColor="#F6F6F6"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/imageView6"
+        app:layout_constraintBottom_toTopOf="@+id/imageView9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/ivClient"
         android:layout_width="0dp"
         android:layout_height="132dp"
         android:layout_marginEnd="54dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/ivEmpresa"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/menu_cliente" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/ivServico"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginEnd="54dp"
-        android:layout_marginBottom="56dp"
+        android:layout_marginBottom="57dp"
         app:layout_constraintBottom_toTopOf="@+id/tvDireitos"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView4"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/ivContactUs"
+        app:layout_constraintTop_toBottomOf="@+id/ivEmpresa"
         app:srcCompat="@drawable/menu_servico" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/ivEmpresa"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="55dp"
         android:layout_marginEnd="46dp"
         android:layout_marginBottom="42dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView5"
-        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintBottom_toTopOf="@+id/ivServico"
+        app:layout_constraintEnd_toStartOf="@+id/ivClient"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
         app:srcCompat="@drawable/menu_empresa" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/ivContactUs"
         android:layout_width="0dp"
         android:layout_height="115dp"
         android:layout_marginStart="68dp"
-        android:layout_marginTop="42dp"
-        android:layout_marginEnd="52dp"
-        android:layout_marginBottom="45dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="43dp"
         app:layout_constraintBottom_toTopOf="@+id/tvDireitos"
-        app:layout_constraintEnd_toStartOf="@+id/imageView5"
+        app:layout_constraintEnd_toStartOf="@+id/ivServico"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/ivEmpresa"
         app:srcCompat="@drawable/menu_contato" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="38dp"
-        android:layout_marginEnd="38dp"
-        android:layout_marginBottom="74dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@drawable/logoFiap" />
 
     <TextView
         android:id="@+id/tvDireitos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="19dp"
-        android:layout_marginBottom="74dp"
+        android:layout_marginBottom="73dp"
         android:text="2023 - Todos direitos reservados"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/imageView4"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+        app:layout_constraintStart_toStartOf="@+id/ivContactUs"
+        app:layout_constraintTop_toBottomOf="@+id/ivServico" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="353dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="66dp"
+        app:layout_constraintBottom_toTopOf="@+id/ivEmpresa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/fiap" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
